@@ -269,3 +269,12 @@ img {
   border: none;
   border-radius: 15px;
 }
+.container p {
+  font-weight: bold;
+}
+.container h2 {
+  font-weight: bold;
+}
+.container h4 {
+  font-weight: bold;
+}
