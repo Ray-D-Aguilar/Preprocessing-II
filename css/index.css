@@ -172,6 +172,10 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.nav-container a {
+  text-decoration: none;
+  font-weight: bold;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
