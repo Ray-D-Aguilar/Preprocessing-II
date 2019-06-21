@@ -241,3 +241,13 @@ img {
   margin: 15px 0;
   border-bottom: dashed 2px #C0C0C0;
 }
+.btn {
+  color: white;
+  text-align: center;
+  width: 80%;
+  font-size: 1.6rem;
+  padding: 15px 5px;
+  background-color: #17A2B8;
+  border: none;
+  border-radius: 15px;
+}
