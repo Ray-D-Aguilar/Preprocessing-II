@@ -172,6 +172,8 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 30px 0;
+  border-bottom: dashed 2px grey;
+  padding-bottom: 15px;
 }
 .nav-container a {
   text-decoration: none;
@@ -179,6 +181,11 @@ img {
   color: black;
   font-size: 1.6rem;
   padding-right: 20px;
+}
+.nav-container .header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   width: 100%;
@@ -246,7 +253,18 @@ img {
   text-align: center;
   width: 80%;
   font-size: 1.6rem;
-  padding: 15px 5px;
+  padding: 5px 15px;
+  background-color: #17A2B8;
+  border: none;
+  border-radius: 15px;
+}
+.button {
+  background: none;
+  color: white;
+  text-align: center;
+  width: 80%;
+  font-size: 1.6rem;
+  padding: 5px 15px;
   background-color: #17A2B8;
   border: none;
   border-radius: 15px;
