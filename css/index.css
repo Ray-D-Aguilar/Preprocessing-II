@@ -194,6 +194,9 @@ img {
     justify-content: center;
     align-items: center;
   }
+  .nav-container .header-h1 {
+    margin: 5px;
+  }
 }
 .footer {
   width: 100%;
