@@ -7,8 +7,7 @@
     justify-content: space-between;
     
     @media @mobile {
-      display: flex;
-      flex-direction: column;
+      .mobile-mixin ();
     }
 
    
@@ -16,6 +15,10 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
+      
+      @media @mobile {
+        width: 100%;
+      }
     }
 
     .img-content {
@@ -31,6 +34,11 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     .text-content {
       padding-left: 1%;
