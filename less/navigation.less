@@ -1,1 +1,31 @@
 // Navigation Styles here
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    border-bottom: dashed 2px grey;
+    padding-bottom: 15px;
+    a {
+        .a-mixin(none, 700);
+        color: black;
+        font-size: 1.6rem;
+        padding-right: 20px;
+
+    }
+    .header-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .header-h1 {
+            margin: 5px;
+        }
+      }
+}

@@ -1,1 +1,25 @@
 // Mixins in here
+.a-mixin(@txdecor, @fntweight) {
+    text-decoration: @txdecor;
+    font-weight: @fntweight;
+}
+
+.mobile-mixin () {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// Button Mixin
+
+.btn-mixin(@button-bg) {
+    color: white;
+    text-align: center;
+    width: 80%;
+    font-size: 1.6rem;
+    padding: 5px 15px;
+    background-color: @button-bg;
+    border: none;
+    border-radius: 15px;
+}
